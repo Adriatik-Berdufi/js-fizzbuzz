@@ -19,8 +19,10 @@ for(let i = 1; i <= 100; i++) {
 
 
     boxContainer.innerHTML += `
-        <div>
-            <h4> ${x} <h4/>
-        <div/>
+
+            <div class="col-1 my-3 ">
+                <div class="card ">${x}</div>
+            </div> 
+         
     `
 };
