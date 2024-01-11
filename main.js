@@ -5,24 +5,39 @@ for(let i = 1; i <= 100; i++) {
     let x;
     if( i % 15 == 0){
         x = "FizzBuzz";
-        console.log("FizzBuzz");
+        boxContainer.innerHTML += `
+        <div class="col-1 my-3 ">
+            <div class="card text-bg-danger">${x}</div>
+        </div>   
+        `
+        
     }else if( i % 5 == 0){
         x = "Buzz";
-        console.log("Buzz");
+        boxContainer.innerHTML += `
+        <div class="col-1 my-3 ">
+            <div class="card text-bg-warning">${x}</div>
+        </div>   
+        `
+        
     }else if(i % 3 == 0){
         x = "Fizz";
-        console.log("Fizz");
+        boxContainer.innerHTML += `
+        <div class="col-1 my-3 ">
+            <div class="card text-bg-success">${x}</div>
+        </div>   
+        `
+        
+      
     }else{
         x =i
-        console.log(i);
+        boxContainer.innerHTML += `
+            <div class="col-1 my-3 ">
+                <div class="card">${x}</div>
+            </div>   
+        `
+      
     }
 
-
-    boxContainer.innerHTML += `
-
-            <div class="col-1 my-3 ">
-                <div class="card ">${x}</div>
-            </div> 
-         
-    `
+    
+    
 };
