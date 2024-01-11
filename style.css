@@ -5,3 +5,12 @@
     justify-content: center;
     align-items: center;
 }
+.FizzBuzz{
+    background-color: red;
+}
+.Buzz{
+    background-color: green;
+}
+.Fizz{
+    background-color: aqua;
+}
