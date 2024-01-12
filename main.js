@@ -18,7 +18,7 @@ for(let i = 1; i <= 100; i++) {
     }
  const boxElement =`
         
-             <div class="col-1 my-3 " >
+             <div class="col-1 g-3 " >
                 <div class="card ${x}">${x}</div>
              </div>
        
